@@ -13,7 +13,8 @@ body {
   width: 300px;
   height: 400px;
   background-color: black;
-  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 30px 5px rgba(248, 248, 248, 0.5);
+  border-radius: 15px;
 }
 
 .content {
@@ -26,6 +27,7 @@ body {
   text-align: center;
   transition: 0.5s;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .imgbox {
@@ -42,6 +44,7 @@ img {
   height: 100%;
   object-fit: cover;  /*hacemos que la imagen cubra todo el contenedor*/
   transition: 0.5s;
+  border-radius: 15px;
 }
 
 h3 {
